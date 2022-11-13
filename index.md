@@ -11,7 +11,7 @@ vim DocSearchServer.java /start` <br>
 /start means that we will search the word start in the file.
 ![Image](lab4r_1.png)
 2. Aftrer typing `ce`<br>
-`c` stands for change and e stand for moving to the end of a word. 
+`c` stands for change and `e` stand for moving to the end of a word. And since we are changing the file, we are in insert mode. 
 ![Image](lab4r_ce.png)
 3. Aftrer typing `base`<br>
 we type in "base" to switch off start and change it to "base".
