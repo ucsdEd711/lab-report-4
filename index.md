@@ -42,6 +42,7 @@ we exit the insert mode and back to the normal mode.
 ![Image](lab4r_n4.png)
 12. After type in `:wq <enter>` <br>
 `:` bring us to the command line and `w`help us save the file and we use `q` to quit the file.
+![Image](lab4r_wq.png)
 13. The screenshot after we quit the file.
 ![Image](lab4r_aftersave.png)
 
