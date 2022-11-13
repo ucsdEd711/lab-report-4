@@ -3,7 +3,7 @@
 The one I'm doing is: In DocSearchServer.java, change the name of the start parameter of getFiles, and all of its uses, to instead be called base.<br>
 `cd week6-skill-demo1
 vim DocSearchServer.java
-/start <enter> ce base <escape> n . n . n . :wq <enter>`
+/start <enter> ce base <escape> n . n . n . n :wq <enter>`
 
 Step by step:
 1. After typing `cd week6-skill-demo1
@@ -11,37 +11,37 @@ vim DocSearchServer.java /start` <br>
 /start means that we will search the word start in the file.
 ![Image](lab4r_1.png)
 2. Aftrer typing `ce`<br>
-c stands for change and e stand for moving to the end of a word. 
+`c` stands for change and e stand for moving to the end of a word. 
 ![Image](lab4r_ce.png)
 3. Aftrer typing `base`<br>
-we type switch off start and change it to base.
+we type in "base" to switch off start and change it to "base".
 ![Image](lab4r_base.png)
 4. Aftrer typing `<esc>`<br>
 we exit the insert mode and back to the normal mode.
 ![Image](lab4r_esc.png)
 5. After type in `n`<br>
-n stand for repeating the last search from the cursor's position.
+`n` stand for repeating the last search from the cursor's position.
 ![Image](lab4r_n1.png)
 6. After typeing `.`<br>
-. will repeat the last change.
+`.` will repeat the last change.
 ![Image](lab4r_dot1.png)
 7. After type in second `n`<br>
-n stand for repeating the last search from the cursor's position. Which will take us to the next "start".
+`n` stand for repeating the last search from the cursor's position. Which will take us to the next "start".
 ![Image](lab4r_n2.png)
 8. After typeing the second `.`<br>
-. will repeat the last change. Which will change the start to base.
+`.` will repeat the last change. Which will change the start to base.
 ![Image](lab4r_dot2.png)
 9. After type in the third `n`<br>
-n stand for repeating the last search from the cursor's position. Which will take us to the next "start".
+`n` stand for repeating the last search from the cursor's position. Which will take us to the next "start".
 ![Image](lab4r_n3.png)
 10.  After typeing the third `.`<br>
-. will repeat the last change. Which will change the start to base.
+`.` will repeat the last change. Which will change the start to base.
 ![Image](lab4r_dot3.png)
 11. After type in the fourth `n`<br>
-n stand for repeating the last search from the cursor's position. Which will take us to the next "start". And since we don't hhave another "start". It shows "Pattern not found: start"
+`n` stand for repeating the last search from the cursor's position. Which will take us to the next "start". And since we don't hhave another "start". It shows "Pattern not found: start"
 ![Image](lab4r_n4.png)
 12. After type in `:wq <enter>` <br>
-: bring us to the command line and w help us save the file and we use q to quit the file.
+`:` bring us to the command line and `w`help us save the file and we use `q` to quit the file.
 13. The screenshot after we quit the file.
 ![Image](lab4r_aftersave.png)
 
