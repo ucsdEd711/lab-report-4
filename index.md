@@ -1,5 +1,5 @@
-# lab report 4
-# first part
+# Lab Report 4
+# First Part
 The one I'm doing is: In DocSearchServer.java, change the name of the start parameter of getFiles, and all of its uses, to instead be called base.<br>
 `cd week6-skill-demo1
 vim DocSearchServer.java
@@ -46,7 +46,7 @@ we exit the insert mode and back to the normal mode.
 13. The screenshot after we quit the file.
 ![Image](lab4r_aftersave.png)
 
-# second part
+# Second Part
 For the method with editting in the local, scp and run on the remote, I took around 53.2 seconds to get the result.
 However, for the method with on the remote first and edit in vim, I spent around 42.6 seconds to get the result.<br>
 
