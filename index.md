@@ -1,7 +1,7 @@
 # Lab Report 4
 # First Part
 The one I'm doing is: In DocSearchServer.java, change the name of the start parameter of getFiles, and all of its uses, to instead be called base.<br>
-`cd week6-skill-demo1
+Full code that typed in: `cd week6-skill-demo1
 vim DocSearchServer.java
 /start <enter> ce base <escape> n . n . n . n :wq <enter>`
 
