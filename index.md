@@ -28,26 +28,26 @@ we exit the insert mode and back to the normal mode.
 7. After type in second `n`<br>
 `n` stand for repeating the last search from the cursor's position. Which will take us to the next "start".
 ![Image](lab4r_n2.png)
-8. After typeing the second `.`<br>
+8. After typing the second `.`<br>
 `.` will repeat the last change. Which will change the start to base.
 ![Image](lab4r_dot2.png)
 9. After type in the third `n`<br>
 `n` stand for repeating the last search from the cursor's position. Which will take us to the next "start".
 ![Image](lab4r_n3.png)
-10.  After typeing the third `.`<br>
+10.  After typing the third `.`<br>
 `.` will repeat the last change. Which will change the start to base.
 ![Image](lab4r_dot3.png)
 11. After type in the fourth `n`<br>
-`n` stand for repeating the last search from the cursor's position. Which will take us to the next "start". And since we don't hhave another "start". It shows "Pattern not found: start"
+`n` stand for repeating the last search from the cursor's position. Which will take us to the next "start". And since we don't have another "start". It shows "Pattern not found: start"
 ![Image](lab4r_n4.png)
 12. After type in `:wq <enter>` <br>
-`:` bring us to the command line and `w`help us save the file and we use `q` to quit the file.
+`:` bring us to the command line and `w`help us save the file and we use `q` to quit the vim mode.
 ![Image](lab4r_wq.png)
-13. The screenshot after we quit the file.
+13. The screenshot after we quit the vim mode.
 ![Image](lab4r_aftersave.png)
 
 # Second Part
-For the method with editting in the local, scp and run on the remote, I took around 53.2 seconds to get the result.
+For the method with editing in the local, scp and run on the remote, I took around 53.2 seconds to get the result.
 However, for the method with on the remote first and edit in vim, I spent around 42.6 seconds to get the result.<br>
 
 Which of these two styles would you prefer using if you had to work on a program that you were running remotely, and why?<br>
@@ -57,4 +57,4 @@ In my opinion, if I get used to how to use vim and know a lot of method to edit 
 What about the project or task might factor into your decision one way or another? (If nothing would affect your decision, say so and why!)
 <br>
 <br>
-I think when we only need to change small part of a file the time difference between two methods might not be that much. However, when the file we need to change is long and we need to change lots of part in the file, or we need to use some method to change it, such as searching, copy and paste... it will make the second method way faster than the first one. Therefore, when the file we need to change is long and thare are a lot of part we need to change, It will factor my decision to prefer the vim method, but when we don't need to change too much stuff in the file, both methods are fine for me.
+I think when we only need to change small part of a file the time difference between two methods might not be that much. However, when the file we need to change is long and we need to change lots of part in the file, or we need to use some method to change it, such as searching, copy and paste... It will make the second method way faster than the first one. Therefore, when the file we need to change is long and thare are a lot of part we need to change, It will factor my decision to prefer the vim method, but when we don't need to change too much stuff in the file, both methods are fine for me.
